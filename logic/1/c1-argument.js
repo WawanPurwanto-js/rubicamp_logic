@@ -44,12 +44,12 @@
 // sum(11);
 // sum(10,3,6,7,9);
 
-function sum(){
+function sum() {
 
     let total = 0;
-    for (let i = 0 ; i < arguments.length;i++){
-        total=total+arguments[i];
+    for (let i = 0; i < arguments.length; i++) {
+        total = total + arguments[i];
     }
     console.log(total);
 }
-sum (1,2,3,4,5,)
+sum(1, 2, 3, 4, 5, 6)
